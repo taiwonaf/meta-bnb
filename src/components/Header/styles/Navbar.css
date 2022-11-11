@@ -1,0 +1,33 @@
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 20px;
+}
+
+nav .nav-wrapper {
+    height: 48px;
+    max-width: 1240px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 845px;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    gap: 48px;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 490px;
+    width: 100%;
+}
