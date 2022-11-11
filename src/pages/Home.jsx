@@ -1,6 +1,9 @@
+import HomeContent from '../components/Home/HomeContent';
 const Home = () => {
   return (
-    <div>Home</div>
+    <div className="home-page">
+      <HomeContent />
+    </div>
   )
 }
 

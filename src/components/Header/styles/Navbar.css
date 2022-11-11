@@ -3,7 +3,8 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 50px 20px;
+    margin: 50px 0;
+    padding: 0 20px;
 }
 
 nav .nav-wrapper {
@@ -23,9 +24,8 @@ nav .nav-wrapper {
     width: 100%;
 }
 
-ul {
+.nav-items ul {
     display: flex;
-    gap: 48px;
     justify-content: space-between;
     align-items: center;
     max-width: 490px;

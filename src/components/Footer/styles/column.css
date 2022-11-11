@@ -1,0 +1,18 @@
+.footer-column h5 {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    line-height: 22px;
+    margin-bottom: 23px;
+}
+
+.footer-column ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer-column a {
+    color: #F1F3F9;
+    text-decoration: none;
+}

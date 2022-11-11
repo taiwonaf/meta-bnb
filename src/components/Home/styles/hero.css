@@ -1,0 +1,51 @@
+.hero-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 75px 0 65px 0;
+    padding: 0 20px;
+}
+
+.hero-wrapper {
+    max-width: 1240px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero-wrapper .hero-left {
+    max-width: 646px;
+    width: 100%;
+}
+
+.hero-wrapper .hero-left h1 {
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 78.4px;
+    color: #434343;
+    margin-bottom: 48px;
+}
+
+.hero-wrapper .hero-left h1 span {
+    color: #A02279;
+}
+
+.hero-wrapper .hero-left p {
+    color: #434343;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    margin-bottom: 48px;
+}
+
+.hero-wrapper .hero-right {
+    max-width: 476px;
+    width: 100%;
+}
+
+.hero-wrapper .hero-right img {
+    width: 100%;
+}

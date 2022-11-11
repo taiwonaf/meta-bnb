@@ -47,9 +47,7 @@ const Header = () => {
           <div className="nav-btn">
             <Button 
               name="Connect wallet"
-              type="button"
-              // bgColor="linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%)"
-              bgColor='linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%'
+              bgColor="linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%)"
               textColor="white"
             />
           </div>

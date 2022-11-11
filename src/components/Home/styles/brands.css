@@ -1,0 +1,16 @@
+.brands {
+    height: 70px;
+    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.brands-wrapper {
+    max-width: 1240px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    gap: 20px;
+}

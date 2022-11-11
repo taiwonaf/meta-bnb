@@ -3,9 +3,8 @@ import './styles/button.css';
 const Button = ({name, type, bgColor, url, textColor}) => {
 
   const btnStyle = {
-    backgroundColor: `${bgColor}`,
-    color: textColor
-
+    color: textColor,
+    background: bgColor
   }
   return (
     <button href={url} style={btnStyle} type={type}>
