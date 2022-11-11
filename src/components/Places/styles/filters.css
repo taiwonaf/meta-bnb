@@ -1,0 +1,39 @@
+.filters {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 64px;
+}
+
+.filters ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 920px;
+    width: 100%;
+    gap: 5px;
+}
+
+.filters ul li {
+    font-size: 20px;
+    font-weight: 400;
+    color: #434343;
+}
+
+.filters .sort {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 160px;
+    width: 100%;
+    border: 1px solid #B4B4B4;
+    background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+    padding: 13px 14px;
+    border-radius: 8px;
+}
+
+.filters .sort span {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+}

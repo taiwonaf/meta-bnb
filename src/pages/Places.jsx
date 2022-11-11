@@ -1,6 +1,9 @@
+import PlacesContent from "../components/Places/PlacesContent"
 const Places = () => {
   return (
-    <div>Places</div>
+    <div className="places">
+      <PlacesContent />
+    </div>
   )
 }
 

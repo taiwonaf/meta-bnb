@@ -1,0 +1,12 @@
+.places-content-wrapper {
+    max-width: 1240px;
+    width: 100%;
+}
+
+.placescontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 65px 20px 92px 20px;
+}
