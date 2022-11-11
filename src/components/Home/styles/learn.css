@@ -46,3 +46,33 @@
 .learn-more .learnmore-wrapper .learn-right img {
     width: 100%;
 }
+
+@media (max-width: 1024px) {
+    .learn-more .learnmore-wrapper {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .learn-more .learnmore-wrapper .learn-left {
+        max-width: 100%;
+        width: 100%;
+        text-align: center;
+    }
+
+    .learn-more .learnmore-wrapper .learn-right {
+        order: -1;
+    }
+}
+
+@media (max-width: 768px) {
+    .learn-more .learnmore-wrapper h2 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    .learn-more .learnmore-wrapper p {
+        font-size: 18px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+}

@@ -38,3 +38,27 @@ footer {
     line-height: 16px;
     font-weight: 400;
 }
+
+@media (max-width: 1024px) {
+    .footer-wrapper {
+        grid-template-columns: auto;
+        grid-row-gap: 50px;
+    }
+
+    .footer-wrapper > div {
+        text-align: center;
+    }
+
+    .brand-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footer-bottom {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

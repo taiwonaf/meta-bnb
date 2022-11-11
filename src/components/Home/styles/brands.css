@@ -12,5 +12,22 @@
     display: flex;
     width: 100%;
     justify-content: space-around;
+    align-items: center;
     gap: 20px;
+}
+
+@media (max-width: 1024px) {
+    .brands {
+        height: auto;
+        padding: 10px 20px;
+    }
+
+    .brands-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .brands-wrapper img {
+        height: 30px;
+    }
 }

@@ -30,3 +30,19 @@ nav .nav-wrapper {
     max-width: 490px;
     width: 100%;
 }
+
+@media (max-width: 1024px) {
+    .nav-items {
+        display: none;
+    }
+
+    .nav-wrapper .brand img {
+        height: 23px;
+    }
+}
+
+@media (max-width: 768px) {
+    nav {
+        padding: 10px 20px;
+    }
+}

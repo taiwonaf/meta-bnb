@@ -26,3 +26,10 @@
     grid-template-columns: repeat(4, auto);
     grid-gap: 24px;
 }
+
+@media (max-width: 768px) {
+    .adventure-section .adventure-wrapper h2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+}

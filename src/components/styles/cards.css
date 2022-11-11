@@ -3,3 +3,17 @@
     grid-template-columns: repeat(4, auto);
     grid-gap: 24px;
 }
+
+@media (max-width: 1024px) {
+    .cards {
+        grid-template-columns: repeat(2, auto);
+        justify-content: space-evenly;
+    }
+}
+
+@media (max-width: 768px) {
+    .cards {
+        grid-template-columns: repeat(1, auto);
+        justify-content: center;
+    }
+}
