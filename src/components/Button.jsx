@@ -1,13 +1,13 @@
 import './styles/button.css';
 
-const Button = ({name, type, bgColor, url, textColor}) => {
+const Button = ({click, name, type, bgColor, url, textColor}) => {
 
   const btnStyle = {
     color: textColor,
     background: bgColor
   }
   return (
-    <button href={url} style={btnStyle} type={type}>
+    <button href={url} style={btnStyle} type={type} onClick={() => click(prev => true)}>
         {name}
     </button>
   )

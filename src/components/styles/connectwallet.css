@@ -1,0 +1,87 @@
+.connect-wallet {
+    position: absolute;
+    inset: 0;
+    background: rgba(64, 64, 64, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.wallets-container {
+    z-index: 999;
+    max-width: 600px;
+    width: 100%;
+    background-color: white;
+    border-radius: 16px;
+}
+
+.wallet-container-top  {
+    padding: 24px 32px;
+    border-bottom: 1px solid #CFD8DC;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+}
+
+.connect-wallet .wallets-container .wallet-container-top .close-wallet {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.wallet-container-top span {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #333333;
+}
+
+.wallet-container-bottom {
+    padding: 32px;
+}
+
+.wallet-container-bottom p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #333333;
+    margin-bottom: 16px;
+}
+
+.wallet-container-bottom .wallets {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.wallet-container-bottom .wallet {
+    border: 1px solid #CFD8DC;
+    border-radius: 12px;
+    background: #F8F9FA;
+    display: flex;
+    padding: 12px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wallet-container-bottom .wallet .wallet-details {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+}
+
+.wallet-container-bottom .wallet .wallet-details img {
+    height: 44px;
+    width: 44px;
+}
+
+.connect-wallet .back {
+    position: absolute;
+    inset: 0;
+    background: transparent;
+    z-index: 99;
+}

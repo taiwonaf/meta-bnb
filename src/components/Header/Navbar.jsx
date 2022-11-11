@@ -3,7 +3,7 @@ import './styles/Navbar.css';
 import Button from '../Button';
 import Logo from './../../assets/logo.png';
 
-const Header = () => {
+const Header = ({openwallet}) => {
   const navLinks = [
     {
       name: 'Home',
@@ -45,7 +45,8 @@ const Header = () => {
             }
           </ul>
           <div className="nav-btn">
-            <Button 
+            <Button
+              click={openwallet}
               name="Connect wallet"
               bgColor="linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%)"
               textColor="white"
