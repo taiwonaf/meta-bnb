@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import './styles/navlink.css';
 
-const NavLink = ({name, url}) => {
+const Navlinks = ({name, url}) => {
   return (
     <li>
       <Link to={url}>{name}</Link>
@@ -9,4 +9,4 @@ const NavLink = ({name, url}) => {
   )
 }
 
-export default NavLink
+export default Navlinks

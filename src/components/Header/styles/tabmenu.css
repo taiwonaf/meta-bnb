@@ -1,0 +1,49 @@
+.tab-menu {
+    position: absolute;
+    inset: 0;
+    background: rgba(64, 64, 64, 0.3);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.tab-menu .tab-mneu-bg {
+    position: absolute;
+    inset: 0;
+    z-index: 9;
+}
+
+.tab-menu .tab-links {
+    background-color: white;
+    width: 300px;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 50px 30px;
+    gap: 40px;
+    transition: 1s;
+    z-index: 20;
+}
+
+.tab-menu .tab-links svg {
+    font-size: 2.5rem;
+}
+
+.tab-links ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.tab-links ul a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #434343;
+}
+
+.tab-links .tab-menu-close {
+    align-self: flex-end;
+}

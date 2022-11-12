@@ -3,7 +3,7 @@ import { faGreaterThan, faXmark } from '@fortawesome/free-solid-svg-icons';
 import './styles/connectwallet.css';
 import { useEffect } from 'react';
 
-const ConnectWallet = ({closewallet}) => {
+const ConnectWallet = ({closewallet, closeTabMenu}) => {
     const wallets = [
         {
           name: 'Metamask',
@@ -15,6 +15,7 @@ const ConnectWallet = ({closewallet}) => {
         }
       ]
       useEffect(() => {
+        closeTabMenu(prev => false)
         document.body.style.overflowY = 'hidden';
         return () => {
             document.body.style.overflowY = 'scroll'

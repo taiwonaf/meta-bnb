@@ -1,9 +1,12 @@
-import NavLink from './NavLink';
+import Navlinks from './Navlinks';
 import './styles/Navbar.css';
 import Button from '../Button';
 import Logo from './../../assets/logo.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHamburger } from '@fortawesome/free-solid-svg-icons';
 
-const Header = ({openwallet}) => {
+
+const Header = ({openwallet, openTabMenu}) => {
   const navLinks = [
     {
       name: 'Home',
@@ -35,7 +38,7 @@ const Header = ({openwallet}) => {
               navLinks.map((link, index) => {
                 const {name, url} = link;
                 return (
-                  <NavLink
+                  <Navlinks
                     name={name}
                     url={url}
                     key={index}
@@ -52,6 +55,9 @@ const Header = ({openwallet}) => {
               textColor="white"
             />
           </div>
+        </div>
+        <div className="hamburger" onClick={() => openTabMenu(prev => true)}>
+          <FontAwesomeIcon icon={faHamburger} size="xl" />
         </div>
       </div>
     </nav>

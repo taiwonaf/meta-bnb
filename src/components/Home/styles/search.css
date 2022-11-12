@@ -2,10 +2,13 @@
     height: 54px;
 }
 
-.seach-container input {
+.search-container input {
     width: 100%;
     max-width: 390px;
     height: 100%;
+    padding: 0px 26px;
+    outline-color: #A02279;
+    font-size: 18px;
 }
 
 .search-btn {
