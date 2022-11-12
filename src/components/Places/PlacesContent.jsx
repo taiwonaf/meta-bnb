@@ -1,6 +1,6 @@
 import React from 'react'
 import Cards from '../Cards';
-import placesData from '../placesData';
+import placesData from './data/places';
 import './styles/placescontent.css';
 import Filters from './Filters';
 
