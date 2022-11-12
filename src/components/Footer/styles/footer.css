@@ -39,7 +39,7 @@ footer {
     font-weight: 400;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1180px) {
     .footer-wrapper {
         grid-template-columns: auto;
         grid-row-gap: 50px;

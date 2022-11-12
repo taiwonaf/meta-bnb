@@ -40,7 +40,7 @@ nav .nav-wrapper {
     color: #A02279;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1180px) {
     .nav-items {
         display: none;
     }

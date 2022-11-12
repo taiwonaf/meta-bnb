@@ -54,9 +54,6 @@
     .hero-wrapper {
         gap: 50px;
     }
-
-    .hero-wrapper .hero-right {
-    }
 }
 
 @media (max-width: 1180px) {

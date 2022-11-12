@@ -4,7 +4,7 @@
     grid-gap: 24px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1180px) {
     .cards {
         grid-template-columns: repeat(2, auto);
         justify-content: space-evenly;

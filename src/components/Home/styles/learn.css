@@ -47,7 +47,7 @@
     width: 100%;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1180px) {
     .learn-more .learnmore-wrapper {
         flex-direction: column;
         gap: 50px;
