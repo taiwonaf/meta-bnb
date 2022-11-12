@@ -3,6 +3,7 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 64px;
+    gap: 20px;
 }
 
 .filters ul {
@@ -12,6 +13,11 @@
     max-width: 920px;
     width: 100%;
     gap: 5px;
+    flex-wrap: wrap;
+    height: 40px;
+    overflow-y: scroll;
+    padding: 5px;
+    box-shadow: -8px 5px 14px -6px rgba(0,0,0,0.12);
 }
 
 .filters ul li {
