@@ -2,7 +2,7 @@
     height: 54px;
 }
 
-input {
+.seach-container input {
     width: 100%;
     max-width: 390px;
     height: 100%;
@@ -15,4 +15,28 @@ input {
     border-radius: 0px 8px 8px 0;
     background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.46%);
     color: white;
+}
+
+@media (max-width: 1180px) {
+
+    .search-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 20px;
+        height: auto;
+    }
+    .search-container input {
+        max-width: 100%;
+        border-radius: 8px;
+        height: 54px;
+        padding: 14px 26px;
+        font-size: 21px;
+        outline-color: #A02279;
+    }
+
+    .search-btn {
+        max-width: 100%;
+        border-radius: 8px;
+    }
 }
