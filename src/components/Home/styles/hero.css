@@ -44,10 +44,14 @@
 .hero-wrapper .hero-right {
     max-width: 476px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-wrapper .hero-right img {
     width: 100%;
+    max-width: 476px;
 }
 
 @media (max-width: 1024px) {
