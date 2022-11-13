@@ -4,8 +4,10 @@ import Navlinks from './Navlinks';
 import './styles/tabmenu.css';
 import Button from '../Button';
 import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 
 const TabMenu = ({closeTabMenu, openWallet}) => {
+
   const navLinks = [
     {
       name: 'Home',
@@ -24,13 +26,13 @@ const TabMenu = ({closeTabMenu, openWallet}) => {
       url: '#'
     }
   ]
-
+  
   useEffect(() => {
     document.body.style.overflowY = 'hidden';
     return () => {
         document.body.style.overflowY = 'scroll'
     }
-  })
+  }, []);
   return (
     <div className='tab-menu'>
       <div className="tab-mneu-bg" onClick={() => closeTabMenu(prev => false)}>
