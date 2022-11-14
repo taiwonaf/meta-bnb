@@ -1,10 +1,10 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './styles/navlink.css';
 
 const Navlinks = ({ name, url}) => {
   return (
     <li>
-      <Link to={url} >{name}</Link>
+      <NavLink to={url} >{name}</NavLink>
     </li>
   )
 }

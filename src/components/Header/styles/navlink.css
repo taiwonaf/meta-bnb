@@ -6,6 +6,15 @@
     padding: 15px 18px;
 }
 
+.nav-items a:hover {
+    color: #A02279;
+    background-color: #D7D7D7;
+}
+
 li {
     list-style: none;
+}
+
+a.active {
+    color: #A02279;
 }

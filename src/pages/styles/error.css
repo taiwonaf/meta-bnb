@@ -1,0 +1,35 @@
+.error {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.error-wrapper {
+    max-width: 1240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 50px 0;
+}
+
+.error-wrapper a {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.error-wrapper a:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 11px 23px;
+}

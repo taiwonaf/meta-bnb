@@ -18,11 +18,11 @@ const Header = ({openwallet, openTabMenu}) => {
     },
     {
       name: 'NFTs',
-      url: '#'
+      url: '/nfts'
     },
     {
       name: 'Community',
-      url: '#'
+      url: '/community'
     }
   ]
 
